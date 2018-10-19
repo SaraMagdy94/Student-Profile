@@ -1,0 +1,17 @@
+.nav{
+	margin-left:500px;
+	margin-top:50px
+
+}
+.item{
+	padding:50px
+}
+body{
+	background-color: #dee2e66e;
+}
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+	padding: 15px;
+}
+.register{
+	margin-top: 150px
+}

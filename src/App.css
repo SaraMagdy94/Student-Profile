@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html, body, .root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma;
+  line-height: 1.5;
+  color:#00BCD4
+
+}
+body, .app {
+  background: #f5f5f5;
+}
+.fas{
+    color:#00BCD4
+
+}
+
+.contact-list {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.contact-list-item {
+  padding: 20px;
+  background: white;
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  .contact-list-item {
+    margin: 20px;
+    border: 1px solid #d5d8df;
+    border-radius: 4px;
+  }
+}
+
+.contact-avatar {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.contact-details {
+  padding-left: 20px;
+  border-left: 1px solid #eee;
+
+  flex: 1;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-details p {
+  margin: 0;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: red;
+    margin-left:100px
+  }
+.navbar-nav{
+  margin-left: 500px;
+}
+
+.navbar-brand{
+   margin-left:100px;
+   color:#00BCD4
+
+}
+
+.login{
+margin-top: 50px;
+margin-left:400px;
+color:#00BCD4
+
+}
+.signUp{
+  margin-top: 10px;
+margin-left:400px;
+color:#00BCD4
+}
+.profile{
+  margin: 10px auto;
+width: 400px;
+color:#00BCD4
+
+}
+.img-fluid {
+ 
+  border-radius:25%;
+  margin-left:100px;
+  width:200px
+}
